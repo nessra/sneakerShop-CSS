@@ -12,6 +12,8 @@ html, body{
    align-items: flex-start;
    justify-content: space-between;
    flex-direction: row;
+   margin-bottom: 80px;
+   border: 100px;
   
 }
 
@@ -29,6 +31,7 @@ ul{
     display: flex;
    flex-direction: row;
    gap: 40px;
+   padding: 0;
    
 }
 
@@ -43,7 +46,8 @@ ul{
 .buttons-container{
    display: flex;
    flex-direction: row;
-   gap: 15px;
+   gap: 30px;
+   margin-left: 50px;
    
 }
 
@@ -60,15 +64,60 @@ ul{
 .button{
    display: flex;
    text-decoration: none;
-   justify-content: center;
-   background-color: blueviolet;
+   color: white;
+   background-color:blueviolet;
    border-radius: 8px;
-   width: 250px; 
-   padding: 15px;
+   width: fit-content;
+   padding: 8px 16px;
+   border: 2px solid blueviolet;
+   transition: all .3s ease-in-out;
 }
 
-h2{
+#container{
+   background-color: beige;
+ 
+}
+
+h1{
    display: flex;
    justify-content: center;
    align-items: center;
 }
+
+.cards{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 90px;
+}
+
+.card{
+   display: flex;
+   flex-wrap: wrap;
+   width: 20%;
+  
+   height: fit-content;
+   background-color: whitesmoke;
+   border-radius: 5px;
+   
+}
+
+.cards img{
+   width: 100%;
+   border-radius: 5px;
+   
+}
+
+.price{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+   align-items: flex-end;
+}
+
